@@ -719,6 +719,21 @@ a.github:hover i{
 	background:url(../images/git.png) no-repeat ;
     display: block;
 }
+a.linkedin i{
+	background:url(../images/linkedin.png) no-repeat ;
+    display: block;
+    width: 30px;
+    height: 30px;
+	-webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+	-ms-transition: 0.5s ease-in;
+}
+a.linkedin:hover i{
+	background:url(../images/linkedin.png) no-repeat ;
+    display: block;
+}
 a.twitter i{
 	background:url(../images/img-sp.png) no-repeat -29px -158px;
     display: block;
@@ -813,7 +828,7 @@ ul.footer-grid-list li a{
 ul.footer-grid-list li a:hover{
 	color:#fff;
 }
-ul.footer-grid-list li span{	
+ul.footer-grid-list li span{
 	display:block;
 	color:#fff;
 	margin:.5em 0 0;
@@ -861,7 +876,7 @@ ul.footer-grid-list li span{
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1102,7 +1117,7 @@ li.list-group-item1 {
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -1445,7 +1460,7 @@ ul.phone-mail {
 .single-grid-left-grid1-left{
 	float:left;
 }
-.single-grid-left-grid1-left h3{ 
+.single-grid-left-grid1-left h3{
 	font-size:1em;
 	color:#212121;
 	text-transform:uppercase;
